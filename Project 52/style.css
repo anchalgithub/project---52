@@ -1,0 +1,102 @@
+
+h1{
+color : #000000;
+border: 4px solid #0000FF ;
+border-radius :20px;
+}
+/* *{
+border:solid'
+
+}*/
+
+
+
+.header {
+background-color: #00F0F0;
+display : flex;
+justify-content: space-between;
+
+    } 
+
+.site-description {
+display: flex;
+flex-direction: column;
+justify-content: first baseline;
+}
+
+.grid {
+display :flex;
+flex-wrap:wrap;
+margin:40px;
+font-family: sans-serif;
+}
+
+
+
+
+.footer{
+display :flex;
+justify-content: flex-end;
+
+}
+
+p {
+
+background-color: #00F0F0;
+
+}
+
+.menu{
+display : flex;
+justify-content: space-between ;
+background-color: #00FF00;
+padding : 15px;
+border: 4px solid #0000FF ;
+border-radius :20px;
+
+
+}
+
+body{
+margin :0px;
+background-color: #f7f7f7;
+}
+
+.origami {
+border-radius :40px;
+background-color: #ffffff;
+padding :30px;
+margin:30px;
+width:400px;
+font-family:fantasy;
+
+}
+
+
+.grid img {
+    border:2px solid #000000;
+    border-radius: 50px;
+    
+}
+
+/*This is when its an unvisted link. */
+a:link{
+color : blue;
+text-decoration: none;
+padding: 5px;
+}
+   
+/*This is when its an visted link. */
+a:visited{
+color:blue;
+text-decoration: none;
+padding:5px;
+}
+
+.origami :hover {
+    transform: scale(1.2);
+    
+}
+
+
+
